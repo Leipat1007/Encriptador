@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador-Alura latam</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/x-icon" href="Images/logo.svg">
+    <link rel="stylesheet" href="CSS/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comme:wght@100&family=Lato:wght@100&family=Lexend+Deca:wght@700&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/dark-mode.css">
+    <link rel="stylesheet" media="(max-width:800px) and (min-width:300px)" href="CSS/responsive.css">
+    <script type="text/javascript" src="JS/main.js" defer></script>
+</head>
+<body>
+    <div class="Cambio">
+        <label for="Check" id="label_check"><i class="fa-solid fa-moon"></i></label>
+        <input type="checkbox" id="Check">
+    </div>  
+    <header>
+        <div class="Banner">
+            <label id="Logo"><img src="Images/Logo.png" alt="Logo Encriptador-Alura" class="Logo"></label>
+            <div class="Selector">
+                <label for="select">Seleccione el tipo de encriptacion: </label>
+                <select id="select" class="Opcion">
+                    <option value="0">Seleccionar...</option>
+                    <option value="1">Encriptación Alura</option>
+                    <option value="2">Encriptación Morse</option>
+                </select>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="Container">
+            <article class="Caja1">
+                <textarea id="Txt1" placeholder="Ingrese el texto aqui"></textarea>
+                <p>Uso solo de minúsculas</p>
+                <p>No usar acentos</p>
+                <div class="Botones">
+                    <input type="submit" value="Encriptar" id="BotonE" class="BotonE">
+                    <input type="submit" value="Desencriptar" id="BotonD" class="BotonD">
+                </div>
+            </article>
+            <article class="Caja2">
+                <textarea id="Txt2" readonly></textarea>
+                <div id="Area">
+                    <div class="Img">
+                        <img src="Images/Muñeco.png" alt="Imagen significativa">
+                    </div>
+                    <p>Ningún mensaje fue encontrado</p>
+                    <p>Ingresa el texto que desees encriptar o desencriptar</p>
+                </div>
+                <input type="submit" value="Copiar" id="BotonC" class="BotonC">
+            </article>
+        </div>
+    </main>
+    <footer>
+        <div class="Piepag  ">
+            <abbr title="Linkedin - Aldair Salgado"><a href="https://www.linkedin.com/in/aldair-romario-salgado-sanchez-/" id="Linked" target="_blank"><img src="Images/linkedin.svg" alt="Link perfil Linkedin"></a></abbr>
+            <abbr title="GitHub - Aldair Salgado"><a href="https://github.com/Leipat1007" target="_blank" id="Git"><img src="Images/github.svg" alt="Link perfil GitHub"></a></abbr>
+            <p>&COPY; Copyright 2023 Alura Latam | Aldair Salgado</p>
+        </div>
+    </footer>
+</body>
+</html>

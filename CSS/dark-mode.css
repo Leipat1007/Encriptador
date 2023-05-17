@@ -1,0 +1,64 @@
+/*Estilos generales de la pagina modo oscuro*/
+.oscuro {
+    width: 100%;
+    height: 100%;
+    display: block;
+    font-size: 1em;
+    font-family: 'Comme', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-color: #1E1E1E;
+    transition: all 1s ease;
+}
+.oscuro .Banner {
+    background: #504D4D;
+    box-shadow: 5px 5px 5px #737373;
+    transition: all 1s ease;
+}
+.oscuro .Banner .Logo {
+    transition: all 1s ease;
+}
+.oscuro .Banner .Opcion {
+    color: #2048CA;
+}
+.oscuro .Piepag {
+    background: #504D4D;
+    box-shadow: 5px 5px 5px #737373;
+    transition: all 1s ease;
+}
+/*Estilos pagina de encriptación*/
+.oscuro .Container {
+    background: #504D4D;
+    box-shadow: -5px -5px 5px #737373;
+    transition: all 1s ease;
+}
+.oscuro ::placeholder {
+    color: white;
+}
+.oscuro .Container .Caja1 textarea {
+    color: white;
+    font-weight: bolder;
+}
+.oscuro .Container .Caja1 p {
+    color: white;
+}
+.oscuro .Container .Caja1 p::before {
+    content: "\2755";
+}
+.oscuro .Container .Caja2 {
+    background: #A5DFF6;
+    color: #2048CA;
+    box-shadow: none;
+}
+.oscuro .Container .Caja2 textarea {
+    color: #000000;
+    font-weight: bold;
+}
+.oscuro .Container .Caja2 p {
+    font-weight: bold;
+}
+.oscuro .Container .Caja2 p:first-of-type {
+    color: #1D42BD;
+}
